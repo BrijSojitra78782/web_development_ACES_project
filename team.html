@@ -1,272 +1,256 @@
+<!doctype html>
 <html>
 
 <head>
-    <title>ACES CLUB</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Marvel Slider</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="stylec.css" />
+	<link rel="stylesheet" type="text/css" href="lightslider.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--Jquery-->
+	<script type="text/javascript" src="JQuery3.3.1.js"></script>
+	<script type="text/javascript" src="lightslider.js"></script>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#"><img src="Logo.png"></a>
-        <a class="navbar-brand" href="#">ACES</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="team.html">Team</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="events.html">Events</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">contact Us</a>
-                </li>
-                <!-- <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                </li> -->
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
-    </nav>
+	<nav class="navbar navbar-expand-lg ">
+		<a class="navbar-brand" href="#"><img src="Logo.png"></a>
+		<a class="navbar-brand" href="#">ACES</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<i class="fa fa-bars"></i>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html">About Us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="team.html">Team</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="events.html">Events</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">contact Us</a>
+				</li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			</form>
+		</div>
+	</nav>
 
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="home.html">HOME</a></li>
-            <li class="breadcrumb-item active" aria-current="page">TEAM</li>
-        </ol>
-    </nav>
-
-    <div class="main-text">
-        <h2>OUR TEAM</h2>
-        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni neque est id obcaecati, reprehenderit similique at quibusdam temporibus doloribus harum earum asperiores pariatur, reiciendis tempore explicabo aspernatur ratione? Iure, incidunt.</small>
-    </div>
-
-    <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-        <div class="swiper-slide">
-            <img src="Faculty_Advisor_Pooja Shah.jpg">
-            <div class="info">
-                <h3>POOJA SHAH</h3>
-                <p>Faculty Advisor</p>
-                <a href="#">Contact</a>
-            </div>
-        </div>
-        <div class="swiper-slide">
-            <img src="Faculty_Advisor_Sapan Sir.jpg">
-            <div class="info">
-                <h3>SAPAN SIR</h3>
-                <p>Faculty Advisor</p>
-                <a href="#">Contact</a>
-            </div>
-        </div>
-        <div class="swiper-slide">
-            <img src="Kanisha Shah - President.jpg">
-            <div class="info">
-                <h3>KANISHA SHAH</h3>
-                <p>President</p>
-                <a href="#">Contact</a>
-            </div>
-        </div>
-        <div class="swiper-slide">
-            <img src="Meet Vora - Vice President.jpg">
-            <div class="info">
-                <h3>MEET VORA</h3>
-                <p>Vice President</p>
-                <a href="#">Contact</a>
-            </div>
-        </div>
-        <div class="swiper-slide">
-            <img src="Kunj Thakkar-General Secretary.jpeg">
-            <div class="info">
-                <h3>KUNJ THAKKAR</h3>
-                <p>General Secretary</p>
-                <a href="#">Contact</a>
-            </div>
-        </div>
-        <div class="swiper-slide">
-            <img src="Naman Thaker - Managing director.jpg">
-            <div class="info">
-                <h3>NAMAN THAKER</h3>
-                <p>Managing Director</p>
-                <a href="#">Contact</a>
-            </div>
-        </div>
-        <div class="swiper-slide">
-            <img src="Sachi_Chaudhary-Marketing_Director.jpg">
-            <div class="info">
-                <h3>SACHI CHAUDHARY</h3>
-                <p>Marketing Director</p>
-                <a href="#">Contact</a>
-            </div>
-        </div>
-        <div class="swiper-slide">
-            <img src="Akshat Shah - Organizing Secretary.jpg">
-            <div class="info">
-                <h3>AKSHAT SHAH</h3>
-                <p>Organizing Secretary</p>
-                <a href="#">Contact</a>
-            </div>
-        </div>
-        <div class="swiper-slide">
-            <img src="Mrunal Shah - Director General.jpg">
-            <div class="info">
-                <h3>MRUNAL SHAH</h3>
-                <p>Director General</p>
-                <a href="#">Contact</a>
-            </div>
-        </div>
-        <div class="swiper-slide">
-            <img src="Shivam Panchal - Technical Head.jpg">
-            <div class="info">
-                <h3>SHIVAM PANCHAL</h3>
-                <p>Technical Head</p>
-                <a href="#">Contact</a>
-            </div>
-        </div>
-        <div class="swiper-slide">
-            <img src="Yagnik Thummar - Technical Head.png">
-            <div class="info">
-                <h3>YAGNIK THUMMAR</h3>
-                <p>Technical Head</p>
-                <a href="#">Contact</a>
-            </div>
-        </div>
-        <div class="swiper-slide">
-            <img src="Kalp Mepani - Treasurer.jpeg">
-            <div class="info">
-                <h3>KALP MEPANI</h3>
-                <p>Treasurer</p>
-                <a href="#">Contact</a>
-            </div>
-        </div>
-        <div class="swiper-slide">
-            <img src="Yash Savani - Editor.jpg">
-            <div class="info">
-                <h3>YASH SAVANI</h3>
-                <p>Editor</p>
-                <a href="#">Contact</a>
-            </div>
-        </div>
-        <div class="swiper-slide">
-            <img src="Gaurav Sakariya - Creative Head.jpg">
-            <div class="info">
-                <h3>GAURAV SAKARIYA</h3>
-                <p>Creative Head</p>
-                <a href="#">Contact</a>
-            </div>
-        </div>
-        <div class="swiper-slide">
-            <img src="Ansh Ray - Public Relations Officer.jpg">
-            <div class="info">
-                <h3>ANSH RAY</h3>
-                <p>Public Relations Officer</p>
-                <a href="#">Contact</a>
-            </div>
-        </div>
-        <div class="swiper-slide">
-            <img src="Aayush Shah - Graphic Designer.jpg">
-            <div class="info">
-                <h3>AAYUSH SHAH</h3>
-                <p>Graphic Designer</p>
-                <a href="#">Contact</a>
-            </div>
-        </div>
-        <div class="swiper-slide">
-            <img src="Savan Vaghani -Membership Chair.png">
-            <div class="info">
-                <h3>SAVAN VAGHANI</h3>
-                <p>Membership Chair</p>
-                <a href="#">Contact</a>
-            </div>
-        </div>
-        <div class="swiper-slide">
-            <img src="Manan Patel - Join Secretary.jpg">
-            <div class="info">
-                <h3>MANAN PATEL</h3>
-                <p>Join Secretary</p>
-                <a href="#">Contact</a>
-            </div>
-        </div>
-        
-          
-        </div>
-        <div class="swiper-pagination"></div>
-    </div>
+	<nav aria-label="breadcrumb">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a href="home.html">HOME</a></li>
+			<li class="breadcrumb-item active" aria-current="page">EVENTS</li>
+		</ol>
+	</nav>
 
 
 
 
-    <section>
-        <div class="footer">
-          <img src="nirma.jpg" alt="Nirma University" class="img-nirma-footer" />
-          <div class="rights">
-            <p>© Copyright 2021 by Association of Computer Socitey. All Rights Reserved.</p>
-          </div>
-    
-          <div class="container text-center footer-social">
-            <p>FIND US ON SOCIAL MEDIA</p>
-            <div class="social-icons">
-                <a href="https://www.facebook.com/aces.itnu/"><img src="facebook-icon.png" /></a>
-                <a href="https://www.instagram.com/aces_it_nu/"><img src="instagram-icon.png" /></a>
-                <a href="#"><img src="twitter-icon.png" /></a>
-                <a href="https://chat.whatsapp.com/J6Le2zZAYIY89ZlV3Nwdok"><img src="whatsapp-icon.png" /></a>
-                <a href="https://www.linkedin.com/company/association-of-computer-engineering-students/mycompany/"><img src="linkedin-icon.png" /></a>
-                <a href="#"><img src="snapchat-icon.png" /></a>
-            </div>
-          </div>
-        </div>
-      </section>
+
+	<div class="container">
+		<ul id="autoWidth" class="cs-hidden">
+			<li class="item-a">
+				<div class="box">
+					<p class="marvel">POOJA SHAH</p>
+					<img src="Faculty_Advisor_Pooja Shah.jpg" class="model">
+					<div class="details">
+						<p>Faculty Advisor</p>
+					</div>
+				</div>
+			</li>
+			<li class="item-a">
+				<div class="box">
+					<p class="marvel">SAPAN SIR</p>
+					<img src="Faculty_Advisor_Sapan Sir.jpg" class="model">
+					<div class="details">
+						<p>Faculty Advisor</p>
+					</div>
+				</div>
+			</li>
+			<li class="item-a">
+				<div class="box">
+					<p class="marvel">KANISHA SHAH</p>
+					<img src="Kanisha Shah - President.jpg" class="model">
+					<div class="details">
+						<p>President</p>
+					</div>
+				</div>
+			</li>
+			<li class="item-a">
+				<div class="box">
+					<p class="marvel">MEET VORA</p>
+					<img src="Meet Vora - Vice President.jpg" class="model">
+					<div class="details">
+						<p>Vice President</p>
+					</div>
+				</div>
+			</li>
+			<li class="item-a">
+				<div class="box">
+					<p class="marvel">KUNJ THAKKAR</p>
+					<img src="Kunj Thakkar-General Secretary.jpeg" class="model">
+					<div class="details">
+						<p>General Secretary</p>
+					</div>
+				</div>
+			</li>
+			<li class="item-a">
+				<div class="box">
+					<p class="marvel">NAMAN THAKER</p>
+					<img src="Naman Thaker - Managing director.jpg" class="model">
+					<div class="details">
+						<p>Managing director</p>
+					</div>
+				</div>
+			</li>
+			<li class="item-a">
+				<div class="box">
+					<p class="marvel">SACHI CHAUDHARY</p>
+					<img src="Sachi_Chaudhary-Marketing_Director.jpg" class="model">
+					<div class="details">
+						<p>Marketing Director</p>
+					</div>
+				</div>
+			</li>
+			<li class="item-a">
+				<div class="box">
+					<p class="marvel">AKSHAT SHAH</p>
+					<img src="Akshat Shah - Organizing Secretary.jpg" class="model">
+					<div class="details">
+						<p>Organizing Secretary</p>
+					</div>
+				</div>
+			</li>
+			<li class="item-a">
+				<div class="box">
+					<p class="marvel">MRUNAL SHAH</p>
+					<img src="Mrunal Shah - Director General.jpg" class="model">
+					<div class="details">
+						<p>Director General</p>
+					</div>
+				</div>
+			</li>
+			<li class="item-a">
+				<div class="box">
+					<p class="marvel">SHIVAM PANCHAL</p>
+					<img src="Shivam Panchal - Technical Head.jpg" class="model">
+					<div class="details">
+						<p>Technical Head</p>
+					</div>
+				</div>
+			</li>
+			<li class="item-a">
+				<div class="box">
+					<p class="marvel">YAGNIK THUMMAR</p>
+					<img src="Yagnik Thummar - Technical Head.png" class="model">
+					<div class="details">
+						<p>Technical Head</p>
+					</div>
+				</div>
+			</li>
+			<li class="item-a">
+				<div class="box">
+					<p class="marvel">KALP MEPANI</p>
+					<img src="Kalp Mepani - Treasurer.jpeg" class="model">
+					<div class="details">
+						<p>Treasurer</p>
+					</div>
+				</div>
+			</li>
+			<li class="item-a">
+				<div class="box">
+					<p class="marvel">YASH SAVANI</p>
+					<img src="Yash Savani - Editor.jpg" class="model">
+					<div class="details">
+						<p>Editor</p>
+					</div>
+				</div>
+			</li>
+			<li class="item-a">
+				<div class="box">
+					<p class="marvel">GAURAV SAKARIYA</p>
+					<img src="Gaurav Sakariya - Creative Head.jpg" class="model">
+					<div class="details">
+						<p>Creative Head</p>
+					</div>
+				</div>
+			</li>
+			<li class="item-a">
+				<div class="box">
+					<p class="marvel">ANSH RAY</p>
+					<img src="Ansh Ray - Public Relations Officer.jpg" class="model">
+					<div class="details">
+						<p>Public Relations Office</p>
+					</div>
+				</div>
+			</li>
+			<li class="item-a">
+				<div class="box">
+					<p class="marvel">AAYUSH SHAH</p>
+					<img src="Aayush Shah - Graphic Designer.jpg" class="model">
+					<div class="details">
+						<p>Graphic Designer</p>
+					</div>
+				</div>
+			</li>
+			<li class="item-a">
+				<div class="box">
+					<p class="marvel">SAVAN VAGHANI</p>
+					<img src="Savan Vaghani -Membership Chair.png" class="model">
+					<div class="details">
+						<p>Membership Chair</p>
+					</div>
+				</div>
+			</li>
+			<li class="item-a">
+				<div class="box">
+					<p class="marvel">MANAN PATEL</p>
+					<img src="Manan Patel - Join Secretary.jpg" class="model">
+					<div class="details">
+						<p>Join Secretary</p>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
 
 
-      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-      <script>
-        var swiper = new Swiper(".mySwiper", {
-          slidesPerView: 4,
-          spaceBetween: 5,
-          slidesPerGroup: 4,
-          centeredSlider: true,
-          grabCursor: true,
-          loop: true,
-          loopFillGroupWithBlank: true,
-          pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-          },
-          
-        });
-      </script>
-
+	<section>
+		<div class="footer">
+			<img src="nirma.jpg" alt="Nirma University" class="img-nirma-footer" />
+			<div class="rights">
+				<p>© Copyright 2021 by Association of Computer Socitey. All Rights Reserved.</p>
+			</div>
+			<div class="container text-center footer-social">
+				<p>FIND US ON SOCIAL MEDIA</p>
+				<div class="social-icons">
+					<a href="https://www.facebook.com/aces.itnu/"><img src="facebook-icon.png" /></a>
+					<a href="https://www.instagram.com/aces_it_nu/"><img src="instagram-icon.png" /></a>
+					<a href="#"><img src="twitter-icon.png" /></a>
+					<a href="https://chat.whatsapp.com/J6Le2zZAYIY89ZlV3Nwdok"><img src="whatsapp-icon.png" /></a>
+					<a href="https://www.linkedin.com/company/association-of-computer-engineering-students/mycompany/"><img src="linkedin-icon.png" /></a>
+					<a href="#"><img src="snapchat-icon.png" /></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="script.js" type="text/javascript"></script>
 </body>
 
 </html>
