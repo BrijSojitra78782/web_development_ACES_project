@@ -83,8 +83,8 @@ body{
 .navbar-nav li a{
     color: rgb(255, 255, 255) !important;
     font-weight: 600;
-    float: right;
-    text-align: left;
+    float: center;
+    text-align: center;
 }
 .fa-bars{
     color: #fff;
@@ -108,6 +108,13 @@ body{
     width: 100%;
 }
 
+
+
+
+
+
+
+
 .footer{
     display: flex;
     justify-content: center;
@@ -117,7 +124,7 @@ body{
     height: 155px;
     /* background-image: linear-gradient(to right,#E5FCC2,#9DE0AD,#45ADA8,#547980,#594F4F); */
     background-color: #ffffff;
-
+    position: relative;
 
 }
 
@@ -144,3 +151,67 @@ body{
 {
     transform: translateY(-10px);
 }
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+    height: 455px;
+    /* border: 2px solid red; */
+}
+
+.card-body-diff{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    margin: 10px 200px 10px 200px;
+    text-align: center;
+    background-color: rgba(127, 255, 212, 0.1);
+    transition: 0.5s;
+}
+
+#cardyb:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+    transform: scale(1.02);
+}
+
+.image{
+    transform: scale(0.5);
+}
+
+.typing-demo {
+    width: 28ch;
+    animation: typing 3s steps(28), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-size: 2em;
+  }
+
+  .typing-demo-Tag{
+    width: 7ch;
+    animation: typing 1.5s steps(28), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-size: 2em;
+  }
+
+@keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
