@@ -1,0 +1,146 @@
+/* *
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right,#5a6d88,#2c3035);
+    padding: 0 !important;
+}
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+#banner{
+    background-image: linear-gradient(to right,#5a6d88,#2c3035);
+    color: white;
+    padding-top: 5%;
+}
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.bottom-img
+{
+    width: 100%;
+} */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right,#5a6d88,#2c3035);
+    background-color: #E5FCC2;
+    padding: 0 !important;
+}
+.navbar-brand img{
+    height: 40px;
+    padding-left: 50px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: rgb(255, 255, 255) !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+#banner{
+    background-image: linear-gradient(to right,#5a6d88,#2c3035);
+        color: rgb(255, 255, 255);
+    padding-top: 5%;
+}
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.bottom-img
+{
+    width: 100%;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    flex-direction: row;
+    height: 155px;
+    /* background-image: linear-gradient(to right,#E5FCC2,#9DE0AD,#45ADA8,#547980,#594F4F); */
+    background-color: #ffffff;
+
+
+}
+
+.img-nirma-footer{
+    transform: scale(0.5);
+}
+
+.rights{
+    color: rgb(0, 0, 0);
+    
+}
+
+.footer-social{
+    width: 50px;
+    color: rgb(0, 0, 0);
+}
+
+.social-icons img
+{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icons a:hover img
+{
+    transform: translateY(-10px);
+}
